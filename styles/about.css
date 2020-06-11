@@ -1,0 +1,11 @@
+.header {
+  background-image: linear-gradient(to right bottom,
+      rgba(240, 118, 84, 0.5),
+      rgba(245, 222, 46, 0.5)),
+    url("../assets/img/about-img/topbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80vh);
+}
