@@ -1,0 +1,7 @@
+.navigation-item:nth-child(3) .navigation-link {
+  border: 2px solid white;
+}
+
+.navigation-item:not(:nth-child(3)) .navigation-link {
+  border: none;
+}

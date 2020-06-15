@@ -9,3 +9,17 @@
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80vh);
 }
+
+
+.navigation-item:nth-child(2) .navigation-link {
+  border: 2px solid white;
+}
+
+.navigation-item:not(:nth-child(2)) .navigation-link {
+  border: none;
+}
+
+/* 
+.navigation-item:nth-child(2) .navigation-link {
+  border: 2px solid white;
+} */

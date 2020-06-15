@@ -39,90 +39,86 @@
             </ol>
         </nav>
     </div>
+    <main class="to-do-main">
 
-    <header class="header">
-        <div class="header-title">
-            <p><a href="./index.html">Rent&Ride</a></p>
-        </div>
-        <div class="to-do header-text-box">
-            <div class="to-do-section">
-                <h2 class="section-heading">Today</h2>
-                <ul class="section-list">
-                    <li class="section-list-element">
-                        <div class="element-container">
-                            <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
-                            <p class="element-text">walk a dog</p>
-                            <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
-                            <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
-                        </div>
-                    </li>
-                    <li class="section-list-element">
-                        <div class="element-container">
-                            <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
-                            <p class="element-text">make a dinner</p>
-                            <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
-                            <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
-                        </div>
-                    </li>
-                    <li class="section-list-element">
-                        <div class="element-container">
-                            <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
-                            <p class="element-text">meet Natalie</p>
-                            <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
-                            <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
-                        </div>
-                    </li>
-                </ul>
-                <div class="add-task">
-                    <button type="button" class="add-task-btn">
-                        <img src="./assets/img/to-do/add.png" alt="add" class="element-img plus">
-                    </button>
-                    <input type="text" placeholder="Add task..." id="add-input">
-                </div>
-
+        <header class="header">
+            <div class="header-title">
+                <p><a href="./index.html">Rent&Ride</a></p>
             </div>
-            <div class="to-do-section">
-                <h2 class="section-heading">Today</h2>
-                <ul class="section-list">
-                    <li class="section-list-element">
-                        <div class="element-container">
-                            <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
-                            <p class="element-text">walk a dog</p>
-                            <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
-                            <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
-                        </div>
-                    </li>
-                    <li class="section-list-element">
-                        <div class="element-container">
-                            <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
-                            <p class="element-text">make a dinner</p>
-                            <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
-                            <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
-                        </div>
-                    </li>
-                    <li class="section-list-element">
-                        <div class="element-container">
-                            <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
-                            <p class="element-text">meet Natalie</p>
-                            <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
-                            <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
-                        </div>
-                    </li>
-                </ul>
-                <div class="add-task">
-                    <button type="button" class="add-task-btn">
-                        <img src="./assets/img/to-do/add.png" alt="add" class="element-img plus">
-                    </button>
-                    <input type="text" placeholder="Add task...">
+        </header>
+        <div class="wrapper">
+            <div class="to-do">
+                <div class="to-do-section">
+                    <h2 class="section-heading">Today<span><img src="./assets/img/to-do/close.png" class="del-img"
+                                alt="close"></span></h2>
+                    <ul class="section-list">
+                        <li class="section-list-element">
+                            <div class="element-container">
+                                <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
+                                <p class="element-text">walk a dog</p>
+                                <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
+                                <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
+                            </div>
+                        </li>
+                        <li class="section-list-element">
+                            <div class="element-container">
+                                <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
+                                <p class="element-text">make a dinner</p>
+                                <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
+                                <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="add-task">
+                        <button type="button" class="add-task-btn">
+                            <img src="./assets/img/to-do/add.png" alt="add" class="element-img plus">
+                        </button>
+                        <input type="text" placeholder="Add a task..." id="add-input">
+                    </div>
+
+                </div>
+                <div class="to-do-section">
+                    <h2 class="section-heading">Tomorrow<span><img src="./assets/img/to-do/close.png" class="del-img"
+                                alt="close"></span></h2>
+                    <ul class="section-list">
+                        <li class="section-list-element">
+                            <div class="element-container">
+                                <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
+                                <p class="element-text">meet Natalie</p>
+                                <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
+                                <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
+                            </div>
+                        </li>
+                        <li class="section-list-element">
+                            <div class="element-container">
+                                <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
+                                <p class="element-text">work on the project</p>
+                                <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
+                                <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="add-task">
+                        <button type="button" class="add-task-btn">
+                            <img src="./assets/img/to-do/add.png" alt="add" class="element-img plus">
+                        </button>
+                        <input type="text" placeholder="Add a task...">
+                    </div>
+                </div>
+                <div class="to-do-controls">
+
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Name" name="name" id='name' />
+                        <label for="name" class="form__label">Enter new section name...</label>
+                        <button type="button" id="add-section-btn">Add new</button>
+                    </div>
+
                 </div>
             </div>
 
         </div>
-    </header>
 
-    <main>
     </main>
-
     <script src="scripts/todo-app.js"></script>
 </body>
 

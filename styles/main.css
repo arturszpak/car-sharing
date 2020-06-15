@@ -69,6 +69,7 @@ body {
 
   opacity: 0;
   width: 0;
+  pointer-events: none;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
@@ -112,6 +113,10 @@ body {
   width: 100%;
 }
 
+.navigation-item:first-child .navigation-link {
+  border: 2px solid white;
+}
+
 .navigation-item {
   margin: 2rem;
 }
@@ -149,6 +154,7 @@ body {
 .navigation-checkbox:checked~.navigation-nav {
   opacity: 1;
   width: 100%;
+  pointer-events: all;
 }
 
 .navigation-checkbox:checked+.navigation-button .navigation-icon {
@@ -396,7 +402,8 @@ video {
 .section-offer .cars .car {
   width: 30%;
   height: 40rem;
-  margin: 6rem 2rem;
+  /* margin: 6rem 2rem; */
+  margin: 2rem 2rem 0 2rem;
 
   perspective: 150rem;
   position: relative;
@@ -555,6 +562,41 @@ video {
 .f-list li a {
   text-decoration: none;
   color: white;
+}
+
+@media screen and (min-width: 2560px) {
+
+  html,
+  body,
+  p,
+  input {
+    font-size: 120%;
+  }
+
+  button {
+    font-size: 90%;
+  }
+
+  .section-intro {
+    margin-top: -30vh;
+    margin-bottom: -40vh;
+  }
+
+  .section-intro .secondary-heading {
+    padding-bottom: 3rem;
+  }
+
+  .section-intro .intro-tiles .intro-tile h3 {
+    font-size: 160%;
+  }
+
+  .section-intro .intro-tiles .intro-tile p {
+    font-size: 120%;
+  }
+
+  .section-intro .intro-tiles .intro-tile img {
+    transform: scale(1.8);
+  }
 }
 
 @media screen and (max-width: 1260px) {
