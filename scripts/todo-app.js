@@ -81,7 +81,7 @@ const addNewSection = (e) => {
     <button type="button" class="add-task-btn">
         <img src="./assets/img/to-do/add.png" alt="add" class="element-img plus">
     </button>
-    <input type="text" placeholder="Add a task...">
+    <input type="text" placeholder="Dodaj zadanie...">
   </div>`;
   controlsDiv.parentNode.insertBefore(mainDiv, controlsDiv);
   mainDiv.querySelector(".add-task-btn").addEventListener("click", addTask);
