@@ -1,0 +1,168 @@
+.navigation-item:nth-child(3) .navigation-link {
+  border: 2px solid white;
+}
+
+.navigation-item:not(:nth-child(3)) .navigation-link {
+  border: none;
+}
+
+.header {
+  background-image: linear-gradient(to right bottom,
+      rgba(240, 118, 84, 0.4),
+      rgba(245, 222, 46, 0.4)),
+    url("../assets/img/contact/heading.jpg");
+}
+
+.heading-primary-sub {
+  font-weight: 700;
+}
+
+.heading-primary-main,
+.heading-primary-sub {
+  color: rgb(238, 237, 237);
+  text-shadow: .1rem .1rem 1rem black;
+  letter-spacing: .3rem;
+}
+
+section.contact {
+  display: flex;
+  height: 90vh;
+
+}
+
+.contact .map {
+  height: 100%;
+  width: 60%;
+
+}
+
+.contact-details {
+  color: black;
+  width: 40%;
+  padding: 2rem;
+  background-image: linear-gradient(to right, rgba(255, 173, 21, 0.02), rgba(255, 255, 42, 0.02));
+}
+
+.contact-details h2 {
+  font-weight: 400;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.details-color {
+  color: orangered;
+}
+
+.contact-details-info {
+  padding: 0 1.8rem;
+}
+
+.contact-details-info h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.contact-details-info div {
+  margin-bottom: 2.5rem;
+}
+
+.contact-details-info div p {
+  padding: .4rem;
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width:2560px) {
+  main.main .contact-details * {
+    font-size: 100%;
+  }
+
+  .contact .contact-details h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .contact-details h2 {
+    font-size: 2.8rem;
+  }
+
+  .contact-details-info {
+    padding: 0 1.8rem;
+  }
+
+  .contact-details-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-details-info div {
+    margin-bottom: 2.2rem;
+  }
+
+  .contact-details-info div p {
+    padding: .4rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width:426px) {
+
+
+  .header-title {
+    position: absolute;
+    top: 3rem;
+    left: 20%;
+    transform: translateX(-20%);
+  }
+
+
+  .navigation-button {
+    top: 4rem;
+    right: 4rem;
+  }
+
+  .navigation-background {
+    top: 4.5rem;
+    right: 4.5rem;
+  }
+
+
+  section.contact {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+
+  }
+
+  .contact div.map {
+    width: 100%;
+    height: 200%;
+  }
+
+  .contact-details {
+    width: 90%;
+    text-align: center;
+  }
+
+  .contact .contact-details h2 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .contact-details-info {
+    padding: 0 1.8rem;
+  }
+
+  .contact-details-info h3 {
+    font-size: 1.6rem;
+  }
+
+  .contact-details-info div {
+    margin-bottom: 2.2rem;
+  }
+
+  .contact-details-info div p {
+    padding: .4rem;
+    font-size: 1.4rem;
+  }
+}

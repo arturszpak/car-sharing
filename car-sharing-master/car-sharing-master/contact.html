@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent&Ride Car-Sharing</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="styles/icon-font.css" /> -->
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+</head>
+
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation-checkbox" id="navi-toggle" />
+
+        <label for="navi-toggle" class="navigation-button">
+            <span class="navigation-icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation-background">&nbsp;</div>
+
+        <nav class="navigation-nav">
+            <ol class="navigation-list">
+                <li class="navigation-item">
+                    <a href="./index.html" class="navigation-link">Strona Główna</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./about.html" class="navigation-link">O firmie</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./contact.html" class="navigation-link">Kontakt</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./todo.html" class="navigation-link">To-Do</a>
+                </li>
+            </ol>
+        </nav>
+    </div>
+
+    <header class="header">
+        <div class="header-title">
+            <p><a href="./index.html">Rent&Ride</a></p>
+        </div>
+        <div class="header-text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">Kontakt</span>
+                <span class="heading-primary-sub">Wskazówki dojazdu, infolinia, kontakt email</span>
+            </h1>
+        </div>
+    </header>
+    <main class="main">
+        <section class="contact">
+            <div class="map"></div>
+            <div class="contact-details">
+                <h2 class="title">Rent&Ride</h2>
+                <div class="contact-details-info">
+                    <div class="helpline">
+                        <h3>infolinia</h3>
+                        <p>czynna całą dobę</p>
+                        <p><strong>tel.: </strong><span class="details-color">500 050 005</span> lub <span
+                                class="details-color"> 600 060
+                                006</span></p>
+                        <p><strong>email: </strong><span class="details-color">contact@rentnride.com</span></p>
+                    </div>
+                    <div class="partnership">
+                        <h3>Współpraca i media</h3>
+                        <p>Jeśli chcesz podjąć z nami współpracę lub działania marketingowe</p>
+                        <p>email: <span class="details-color">marketing@rentnride.com</span></p>
+                    </div>
+                    <div class="company-address">
+                        <h3>Rent&Ride S.A.</h3>
+                        <p>ul. Pawia 5, 31-154 Kraków</p>
+                        <p><strong>NIP: </strong><span class="details-color">1233214567</span></p>
+                        <p><strong>KRS: </strong><span class="details-color">9877891234</span></p>
+                        <p><strong>REGON: </strong><span class="details-color">334455667</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+
+        <div class="footer-section">
+            <ul class="page-documents f-list">
+                <li>Dokumenty</li>
+                <li><a href="#">Regulamin</a></li>
+                <li><a href="#">Przetwarzanie danych osobowych</a></li>
+                <li><a href="#">Polityka prywatności</a></li>
+                <li><a href="#">Cennik</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <ul class="additional-info f-list">
+                <li>Rent&Ride</li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Czym jest car-sharing?</a></li>
+                <li><a href="#">Partnerzy</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="scripts/map.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkQmm8oPumoHUxgGntUC7xEZ7oy4jcCZk&callback=initMap">
+    </script>
+</body>
+
+</html>

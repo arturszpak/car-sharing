@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent&Ride Car-Sharing</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/icon-font.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/todo.css" />
+</head>
+
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation-checkbox" id="navi-toggle" />
+
+        <label for="navi-toggle" class="navigation-button">
+            <span class="navigation-icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation-background">&nbsp;</div>
+
+        <nav class="navigation-nav">
+            <ol class="navigation-list">
+                <li class="navigation-item">
+                    <a href="./index.html" class="navigation-link">Strona Główna</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./about.html" class="navigation-link">O firmie</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./contact.html" class="navigation-link">Kontakt</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./todo.html" class="navigation-link">To-Do</a>
+                </li>
+            </ol>
+        </nav>
+    </div>
+    <main class="to-do-main">
+
+        <header class="header">
+            <div class="header-title">
+                <p><a href="./index.html">Rent&Ride</a></p>
+            </div>
+        </header>
+        <div class="wrapper">
+            <div class="to-do">
+                <div class="to-do-section">
+                    <h2 class="section-heading">Dzisiaj<span><img src="./assets/img/to-do/close.png" class="del-img"
+                                alt="close"></span></h2>
+                    <ul class="section-list">
+                        <li class="section-list-element">
+                            <div class="element-container">
+                                <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
+                                <p class="element-text">wyprowadzić psa</p>
+                                <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
+                                <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
+                            </div>
+                        </li>
+                        <li class="section-list-element">
+                            <div class="element-container">
+                                <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
+                                <p class="element-text">zrobić obiad</p>
+                                <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
+                                <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="add-task">
+                        <button type="button" class="add-task-btn">
+                            <img src="./assets/img/to-do/add.png" alt="add" class="element-img plus">
+                        </button>
+                        <input type="text" placeholder="Dodaj zadanie..." id="add-input">
+                    </div>
+
+                </div>
+                <div class="to-do-section">
+                    <h2 class="section-heading">Jutro<span><img src="./assets/img/to-do/close.png" class="del-img"
+                                alt="close"></span></h2>
+                    <ul class="section-list">
+                        <li class="section-list-element">
+                            <div class="element-container">
+                                <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
+                                <p class="element-text">spotkać się z Natalią</p>
+                                <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
+                                <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
+                            </div>
+                        </li>
+                        <li class="section-list-element">
+                            <div class="element-container">
+                                <img src="./assets/img/to-do/tick-done.png" alt="tick" class="element-img tick">
+                                <p class="element-text">popracować nad projektem</p>
+                                <img src="./assets/img/to-do/pencil.png" alt="edit" class="element-img edit">
+                                <img src="./assets/img/to-do/close.png" alt="delete" class="element-img delete">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="add-task">
+                        <button type="button" class="add-task-btn">
+                            <img src="./assets/img/to-do/add.png" alt="add" class="element-img plus">
+                        </button>
+                        <input type="text" placeholder="Dodaj zadanie...">
+                    </div>
+                </div>
+                <div class="to-do-controls">
+
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Name" name="name" id='name' />
+                        <label for="name" class="form__label">Wprowadź nazwę nowej sekcji...</label>
+                        <button type="button" id="add-section-btn">Dodaj</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <script src="scripts/todo-app.js"></script>
+</body>
+
+</html>

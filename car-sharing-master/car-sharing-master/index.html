@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rent&Ride Car-Sharing</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="styles/icon-font.css" /> -->
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+  <div class="navigation">
+    <input type="checkbox" class="navigation-checkbox" id="navi-toggle" />
+
+    <label for="navi-toggle" class="navigation-button">
+      <span class="navigation-icon">&nbsp;</span>
+    </label>
+
+    <div class="navigation-background">&nbsp;</div>
+
+    <nav class="navigation-nav">
+      <ol class="navigation-list">
+        <li class="navigation-item">
+          <a href="./index.html" class="navigation-link">Strona Główna</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./about.html" class="navigation-link">O firmie</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./contact.html" class="navigation-link">Kontakt</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./todo.html" class="navigation-link">To-Do</a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+
+  <header class="header">
+    <div class="header-title">
+      <p><a href="./index.html">Rent&Ride</a></p>
+    </div>
+    <div class="header-text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary-sub">Szybki carsharing</span>
+        <span class="heading-primary-main">Najlepsze auta na wynajem</span>
+      </h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-intro">
+      <div class="u-center-text">
+        <h2 class="secondary-heading">Zobacz jakie to łatwe i bezpieczne</h2>
+      </div>
+
+      <div class="intro-tiles">
+        <div class="intro-tile">
+          <img src="./assets/img/phone.svg" alt="phone-image" />
+          <h3>Dołącz do Rent&Ride</h3>
+          <p>
+            Pobierz naszą aplikację, zarejestruj się i zacznij korzystać z
+            najwygodniejszych samochodów już teraz!
+          </p>
+        </div>
+
+        <div class="intro-tile">
+          <img src="./assets/img/car.svg" alt="car-image" class="bigger" />
+          <h3>Wybierz swój samochód</h3>
+          <p>
+            W Rent&Ride mamy szeroką gamę samochodów zarówno osobowych, jak i
+            dostawczych. Wybierz i jedź!
+          </p>
+        </div>
+
+        <div class="intro-tile">
+          <img src="./assets/img/pin.svg" alt="pin-image" />
+          <h3>Bezpieczna podróż do celu</h3>
+          <p>
+            Oferujemy wyłącznie najwygodniejsze samochody, u nas nie ponosisz
+            kosztów parkowania w miejskiej strefie.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-video">
+      <h2>Zobacz nasz samochód w akcji</h2>
+
+      <div class="video">
+        <video controls>
+          <source src="./assets/video/mercedes.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section class="section-offer">
+      <h2>Wybierz swoje auto na dziś</h2>
+      <p class="section-offer-header-desc">
+        W Rent&Ride masz możliwość wyboru samochodu dopasowanego do Twoich
+        potrzeb
+      </p>
+      <div class="cars">
+        <div class="car">
+          <div class="card-side front">
+            <h3>Audi A3</h3>
+            <p>Komfort i klasa</p>
+            <div class="img-container">
+              <img class="offer-car" src="./assets/img/cars/audia3.png" alt="audi a3" />
+            </div>
+          </div>
+          <div class="card-side back">
+            <h3>Audi A3</h3>
+            <p class="description">
+              Stylowa linia nadwozia, reflektory LED, nowoczesne wnętrze z
+              wysuwanym wyświetlaczem i wirtualnym kokpitem. To tylko część z
+              wielu zalet – resztę możesz odkryć sam.
+            </p>
+            <button type="button" class="rent-button">Wynajmij</button>
+          </div>
+        </div>
+        <div class="car">
+          <div class="card-side front">
+            <h3>Hyundai I30</h3>
+            <p>Miejski fun</p>
+            <img class="offer-car" src="./assets/img/cars/i30v2.png" alt="Hyundai i30" />
+          </div>
+          <div class="card-side back">
+            <h3>Hyundai I30</h3>
+            <p class="description">
+              Czujniki parkowania, systemy autonomicznego hamowania oraz
+              utrzymywania pasa ruchu pozwolą na bezpieczne przemierzanie
+              wielkomiejskiej dżungli. Dzięki niskiej stawce jest idealny na
+              codzienne dojazdy do pracy, a duży bagażnik świetnie sprawdzi
+              się na zakupach.
+            </p>
+            <button type="button" class="rent-button">Wynajmij</button>
+          </div>
+        </div>
+        <div class="car">
+          <div class="card-side front">
+            <h3>Mercedes C class</h3>
+            <p>Sportowa elegancja</p>
+            <img class="offer-car" src="./assets/img/cars/leaf.png" alt="mercedes" />
+          </div>
+
+          <div class="card-side back">
+            <h3>Mercedes C klasa</h3>
+            <p class="description">
+              When choosing a car hire, a solid option is the Mercedes
+              C-Class, which is an impressive executive car rental option and
+              combines all of the qualities for which the company is
+              world-renowned; dependability, style, comfort and safety.
+            </p>
+            <button type="button" class="rent-button">Wynajmij</button>
+          </div>
+        </div>
+        <div class="car">
+          <div class="card-side front">
+            <h3>Audi Q3</h3>
+            <p>Przestrzeń i dynamika</p>
+            <img class="offer-car" src="./assets/img/cars/q3.png" alt="audi q3" />
+          </div>
+          <div class="card-side back">
+            <h3>Audi Q3</h3>
+            <p class="description">
+              Pierwszy SUV miejski w naszej ofercie. Duży bagażnik idealnie
+              sprawdzi się podczas weekendowego wyjazdu, a w przestronnym
+              wnętrzu, Ty i Twoi znajomi będziecie czuć się komfortowo. Pomimo
+              rozmiaru - Q3 potrafi imponować świetną dynamiką.
+            </p>
+            <button type="button" class="rent-button">Wynajmij</button>
+          </div>
+        </div>
+        <div class="car">
+          <div class="card-side front">
+            <h3>Toyota Yaris</h3>
+            <p>Komfort i klasa</p>
+            <img class="offer-car" src="./assets/img/cars/yaris.png" alt="audi a3" />
+          </div>
+
+          <div class="card-side back">
+            <h3>Toyota Yaris</h3>
+            <p class="description">
+              Lider niezawodności. Numer 1 w rankingach TUV. Jeden z
+              najchętniej kupowanych samochodów na świecie. Nas już nie dziwi,
+              że Yaris cieszy się tak dużą popularnością. Dużo miejsca w
+              środku, solidne materiały. Wysoki poziom bezpieczeństwa. Toyota
+              to sprawdzony producent samochodów.
+            </p>
+            <button type="button" class="rent-button">Wynajmij</button>
+          </div>
+        </div>
+        <div class="car">
+          <div class="card-side front">
+            <h3>Renault Zoe</h3>
+            <p>Elektryk na codzień</p>
+            <img class="offer-car" src="./assets/img/cars/zoe.png" alt="renault zoe" />
+          </div>
+          <div class="card-side back">
+            <h3>Renault Zoe</h3>
+            <p class="description">
+              Miejski, nowoczesny samochód elektryczny, który ułatwi Ci
+              codzienne obowiązki. Silnik elektryczny o mocy 92 KM i
+              akumulator o pojemności wynoszącej 41 kWh zapewnia zasięg do ok.
+              400 km. Wyposażony w automatyczną skrzynię biegów, klimatyzację,
+              kamery cofania oraz Bluetooth.
+            </p>
+            <button type="button" class="rent-button">Wynajmij</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="charges">
+      <div class="charges-per-minute">
+        <div class="u-img">
+          <img class="charges-img" src="./assets/img/wall-clock.svg" alt="clock" />
+        </div>
+        <div class="charges-description">
+          <p>od 0,60zł/min</p>
+        </div>
+      </div>
+
+      <div class="charges-per-distance">
+        <div class="u-img">
+          <img class="charges-img" src="./assets/img/cross.svg" alt="road" />
+        </div>
+        <div class="charges-description">
+          <p>od 0,80zł/km</p>
+        </div>
+      </div>
+    </section>
+    <footer class="page-footer">
+      <div class="footer-section">
+        <ul class="page-contact f-list">
+          <li>Infolinia</li>
+          <li><a href="#">czynna całą dobę</a></li>
+          <li><a href="#">tel.: 123-456-789</a></li>
+          <li><a href="#">email: example@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <ul class="page-documents f-list">
+          <li>Dokumenty</li>
+          <li><a href="#">Regulamin</a></li>
+          <li><a href="#">Przetwarzanie danych osobowych</a></li>
+          <li><a href="#">Polityka prywatności</a></li>
+          <li><a href="#">Cennik</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <ul class="additional-info f-list">
+          <li>Rent&Ride</li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Czym jest car-sharing?</a></li>
+          <li><a href="#">Partnerzy</a></li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+
+</body>
+
+</html>
