@@ -31,6 +31,7 @@
 
 .about-wrapper {
   display: flex;
+  align-items: center;
 }
 
 .about-wrapper img {
@@ -38,16 +39,17 @@
 }
 
 .about p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: justify;
   margin-bottom: 2rem;
+  
 }
 
 .comparison-img img {
   display: block;
   margin: 0 auto;
-  width: auto;
-  height: 70vh;
+  width: 60%;
+  height: auto;
 }
 
 .about>h2 {
@@ -64,6 +66,17 @@
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
+  padding: 2rem;
+}
+
+.faq-question{
+	border-radius: 2rem;
+	margin-bottom: 2rem;
+	color: #202020;
+}
+
+.faq-question:nth-child(2n){
+	background-image: linear-gradient(to right bottom, #ffb266, #ffff99);
 }
 
 .faq-question h2 {
@@ -71,6 +84,13 @@
 }
 
 @media screen and (max-width:769px) {
+  
+    .header .header-title {
+    left: 10%;
+    transform: translateX(-10%);
+  }
+
+  
   .about-wrapper {
     flex-direction: column;
   }
